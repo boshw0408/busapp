@@ -14,13 +14,19 @@ const ROUTE_FRAME = {
   166: '#B985C8', // Purple
   165: '#66B85F', // Green
   128: '#9E9E9E', // Gray
+  100: '#FFD700',
+  101: '#FFC0CB',
+  102: '#0000FF',
 };
 
 // ✅ Segment bar colors matched to your screenshots
 const ROUTE_SEGMENTS = {
-  159: ['#DE509A', '#39B9C0', '#58EDC7'], // Red screenshot (pink / teal / mint)
+  159: ['#CBA0E5', '#6777C4', '#B987E2'], // Red screenshot (pink / teal / mint)
   166: ['#69DE79', '#5CBB50', '#363CB3'], // Purple screenshot (green / green / blue)
-  128: ['#8CE737', '#6B7CC1', '#46D740'], // Gray screenshot (lime / blue / green)
+  128: ['#45E0C2', '#26715B', '#FF4B66'], // Gray screenshot (lime / blue / green)
+  100: ['#DE509A', '#39B9C0', '#58EDC7'],
+  101: ['#DE509A', '#39B9C0', '#58EDC7'],
+  102: ['#DE509A', '#39B9C0', '#58EDC7'],
 };
 
 // Fallback for routes you haven't provided a segment screenshot for (e.g. 165)

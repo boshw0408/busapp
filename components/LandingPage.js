@@ -34,7 +34,27 @@ export default function LandingPage({ onRouteSelect }) {
           style={[styles.button, styles.button128]}
           onPress={() => onRouteSelect(128)}
         >
-          <Text style={styles.buttonText}>128</Text>
+          <Text style={styles.buttonText}>Gray</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={[styles.button, styles.button128]}
+          onPress={() => onRouteSelect(100)}
+        >
+          <Text style={styles.buttonText}>Yellow</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={[styles.button, styles.button128]}
+          onPress={() => onRouteSelect(101)}
+        >
+          <Text style={styles.buttonText}>Pink</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button128]}
+          onPress={() => onRouteSelect(102)}
+        >
+          <Text style={styles.buttonText}>Blue</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -85,6 +105,15 @@ const styles = StyleSheet.create({
   },
   button128: {
     backgroundColor: '#9E9E9E', // Gray
+  },
+  button100: {
+    backgroundColor: '#FFD700', // Gray
+  },
+  button101: {
+    backgroundColor: '#FFC0CB', // Gray
+  },
+  button102: {
+    backgroundColor: '#0000FF', // Gray
   },
   buttonText: {
     fontSize: 32,
